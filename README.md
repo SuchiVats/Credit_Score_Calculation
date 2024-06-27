@@ -4,17 +4,22 @@
 
 
 ### Background: 
-Credit scores play a vital role in determining whether an individual or business is eligible for a loan or credit. Traditional credit scoring models use a set of predefined rules and statistical models to assess creditworthiness. However, these models can be inaccurate and do not always capture the complex relationships between credit-related variables. Therefore, it is essential to have an automated system in place that can accurately predict credit scores.
+To conduct a thorough exploratory data analysis (EDA) and deep analysis of a comprehensive dataset containing basic customer details and extensive credit-related information. The aim is to create new, informative features, calculate a hypothetical credit score, and uncover meaningful patterns, anomalies, and insights within the data.
 
 ### Objective: 
-The objective of this project is to develop an automated credit score classification system using deep learning and machine learning techniques to predict creditworthiness accurately.
+The project expects a deep dive into bank details and credit data, creating valuable features, a hypothetical credit score, and uncovering hidden patterns. This involves thorough EDA, strategic feature engineering, model-driven score calculation, and insightful analysis that reveals factors influencing creditworthiness and guides potential risk mitigation strategies.
 
 ### Methodology: 
-The proposed system will use both deep learning and machine learning algorithms to classify three credit scores i.e Standard, Good and Poor. The system will be trained on a dataset of historical credit scores, which will include features such as credit history, income, employment status, and debt-to-income ratio.
-The system will employ several techniques to improve the accuracy of credit score classification, including data preprocessing, feature engineering, and model tuning. Deep learning algorithms, such as neural networks, will be used to capture complex relationships between variables, while machine learning algorithms, such as decision trees and logistic regression, will be used to identify important features.The system will be tested using a separate test dataset to evaluate its accuracy and generalization performance. The system's performance will be compared to traditional credit scoring models to assess its effectiveness.
+**Exploratory Data Analysis (EDA):** Perform a comprehensive EDA to understand the data’s structure, characteristics, distributions, and relationships. Identify and address any missing values, mismatch data types, inconsistencies, or outliers. Utilize appropriate visualizations (e.g., histograms, scatter plots, box plots, correlation matrices) to uncover patterns and insights.
+
+**Feature Engineering**: Create new features that can be leveraged for the calculation of credit scores based on domain knowledge and insights from EDA. Aggregate the data on the customer level if required Hypothetical Credit Score Calculation:
+
+Develop a methodology to calculate a hypothetical credit score using relevant features(use a minimum of 5 maximum of 10 features). Clearly outline the developed methodology in the notebook, providing a detailed explanation of the reasoning behind it. (use inspiration from FICO scores and try to use relevant features you created) Explore various weighting schemes to assign scores. Provide a score for each individual customer.
 
 ### Outcomes: 
 The system has achieve high accuracy in credit score classification, which will help financial institutions make more informed lending decisions. The system will also be scalable, meaning it can handle large volumes of credit score data without compromising its accuracy.
 
 ### Conclusion: 
-The proposed automated credit score classification system will help financial institutions improve their credit scoring models and make more accurate lending decisions. It will be an essential tool for banks, credit unions, and other financial institutions that rely on credit scores to assess creditworthiness.
+Add valuable insights from EDA and credit score calculation Can credit score and aggregated features be calculated at different time frames like the last 3 months/last 6 months (recency based metrics)
+
+Remember, your analysis isn’t just about dissecting data but uncovering actionable insights. Create a credit score strategy that you think would be the best and mention your justifications for criteria, weightage for the features. Suggestions are just general guidelines for the projects. It is not limited by that but serves as a starter and keeps it open to let you explore more, go into as much depth as you can, and actually make it your own project.
